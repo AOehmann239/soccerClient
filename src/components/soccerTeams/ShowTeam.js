@@ -84,9 +84,9 @@ const ShowSoccerTeam = (props) => {
           <Card.Header>{soccerTeam.name}</Card.Header>
           <Card.Body>
             <Card.Text>
-              <small>Name: {soccerTeam.age}</small>
+              <small>Name: {soccerTeam.name}</small>
               <br />
-              <small>Best Player: {soccerTeam.key_player}</small>
+              <small>Best Player: {soccerTeam.keyPlayer}</small>
               <br />
               <small>Rank: {soccerTeam.rank}</small>
             </Card.Text>

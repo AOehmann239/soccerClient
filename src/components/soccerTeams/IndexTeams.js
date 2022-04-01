@@ -63,7 +63,7 @@ const IndexTeams = (props) => {
         <Card.Header>{soccerTeam.name}</Card.Header>
         <Card.Body>
           <Card.Text>
-            <Link to={`/soccerTeams/${soccerTeam.id}`}>
+            <Link to={`/soccerTeams/${soccerTeam._id}`}>
               View {soccerTeam.name}
             </Link>
           </Card.Text>
