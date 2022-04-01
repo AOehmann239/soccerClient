@@ -18,8 +18,8 @@ const TeamForm = (props) => {
         <Form.Label>Key Player</Form.Label>
         <Form.Control
           placeholder="who is the team's best player?"
-          value={soccerTeam.key_player}
-          name="key_player"
+          value={soccerTeam.keyPlayer}
+          name="keyPlayer"
           onChange={handleChange}
         />
         <Form.Label>Rank</Form.Label>

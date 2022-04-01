@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getAllTeams } from '../../api/soccerTeams';
+import { getAllSoccerTeams } from '../../api/soccerTeams';
 import { Card } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import {
@@ -22,7 +22,7 @@ const IndexTeams = (props) => {
   const { user, msgAlert } = props;
 
   useEffect(() => {
-    getAllTeams()
+    getAllSoccerTeams()
       .then((res) => {
         setSoccerTeams(res.data.soccerTeams);
       })

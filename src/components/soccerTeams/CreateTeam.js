@@ -18,9 +18,8 @@ const CreateSoccerTeam = (props) => {
   // we'll need two states
   const [soccerTeam, setSoccerTeam] = useState({
     name: '',
-    type: '',
-    age: '',
-    adoptable: false,
+    keyPlayer: '',
+    rank: '',
   });
   console.log('team in create', soccerTeam);
   //  an empty team object

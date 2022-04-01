@@ -1,4 +1,4 @@
-import IndexTeams from './pets/IndexTeams';
+import IndexTeams from './soccerTeams/IndexTeams';
 
 const Home = (props) => {
   // const { msgAlert, user } = props
